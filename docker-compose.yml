@@ -3,7 +3,7 @@ services:
   chirpstack-application-server:
     build: 
       context: .
-      dockerfile: Dockerfile-devel
+      dockerfile: Dockerfile
     volumes:
       - ./:/chirpstack-application-server
       # - ../chirpstack-api:/chirpstack-api
